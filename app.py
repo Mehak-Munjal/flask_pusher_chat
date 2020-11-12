@@ -6,10 +6,10 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///messages.db'
 
 pusher_client = pusher.Pusher(
-  app_id='APP_ID',
-  key='APP_KEY',
-  secret='APP_SECRET',
-  cluster='us2',
+  app_id = "1106436",
+  key = "9eef18e187be232d1e05",
+  secret = "724eea8d5e035d0fbee2",
+  cluster = "ap2",
   ssl=True
 )
 
